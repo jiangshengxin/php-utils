@@ -1,0 +1,48 @@
+utils.lo: /data/www/jsx/utils/ext/utils.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/data/www/jsx/utils/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /data/www/jsx/utils/ext/utils.c -o utils.lo 
+kernel/main.lo: /data/www/jsx/utils/ext/kernel/main.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/data/www/jsx/utils/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /data/www/jsx/utils/ext/kernel/main.c -o kernel/main.lo 
+kernel/memory.lo: /data/www/jsx/utils/ext/kernel/memory.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/data/www/jsx/utils/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /data/www/jsx/utils/ext/kernel/memory.c -o kernel/memory.lo 
+kernel/exception.lo: /data/www/jsx/utils/ext/kernel/exception.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/data/www/jsx/utils/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /data/www/jsx/utils/ext/kernel/exception.c -o kernel/exception.lo 
+kernel/debug.lo: /data/www/jsx/utils/ext/kernel/debug.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/data/www/jsx/utils/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /data/www/jsx/utils/ext/kernel/debug.c -o kernel/debug.lo 
+kernel/backtrace.lo: /data/www/jsx/utils/ext/kernel/backtrace.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/data/www/jsx/utils/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /data/www/jsx/utils/ext/kernel/backtrace.c -o kernel/backtrace.lo 
+kernel/object.lo: /data/www/jsx/utils/ext/kernel/object.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/data/www/jsx/utils/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /data/www/jsx/utils/ext/kernel/object.c -o kernel/object.lo 
+kernel/array.lo: /data/www/jsx/utils/ext/kernel/array.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/data/www/jsx/utils/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /data/www/jsx/utils/ext/kernel/array.c -o kernel/array.lo 
+kernel/string.lo: /data/www/jsx/utils/ext/kernel/string.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/data/www/jsx/utils/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /data/www/jsx/utils/ext/kernel/string.c -o kernel/string.lo 
+kernel/fcall.lo: /data/www/jsx/utils/ext/kernel/fcall.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/data/www/jsx/utils/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /data/www/jsx/utils/ext/kernel/fcall.c -o kernel/fcall.lo 
+kernel/require.lo: /data/www/jsx/utils/ext/kernel/require.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/data/www/jsx/utils/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /data/www/jsx/utils/ext/kernel/require.c -o kernel/require.lo 
+kernel/file.lo: /data/www/jsx/utils/ext/kernel/file.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/data/www/jsx/utils/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /data/www/jsx/utils/ext/kernel/file.c -o kernel/file.lo 
+kernel/operators.lo: /data/www/jsx/utils/ext/kernel/operators.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/data/www/jsx/utils/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /data/www/jsx/utils/ext/kernel/operators.c -o kernel/operators.lo 
+kernel/math.lo: /data/www/jsx/utils/ext/kernel/math.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/data/www/jsx/utils/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /data/www/jsx/utils/ext/kernel/math.c -o kernel/math.lo 
+kernel/concat.lo: /data/www/jsx/utils/ext/kernel/concat.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/data/www/jsx/utils/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /data/www/jsx/utils/ext/kernel/concat.c -o kernel/concat.lo 
+kernel/variables.lo: /data/www/jsx/utils/ext/kernel/variables.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/data/www/jsx/utils/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /data/www/jsx/utils/ext/kernel/variables.c -o kernel/variables.lo 
+kernel/filter.lo: /data/www/jsx/utils/ext/kernel/filter.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/data/www/jsx/utils/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /data/www/jsx/utils/ext/kernel/filter.c -o kernel/filter.lo 
+kernel/iterator.lo: /data/www/jsx/utils/ext/kernel/iterator.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/data/www/jsx/utils/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /data/www/jsx/utils/ext/kernel/iterator.c -o kernel/iterator.lo 
+kernel/time.lo: /data/www/jsx/utils/ext/kernel/time.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/data/www/jsx/utils/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /data/www/jsx/utils/ext/kernel/time.c -o kernel/time.lo 
+kernel/exit.lo: /data/www/jsx/utils/ext/kernel/exit.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/data/www/jsx/utils/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /data/www/jsx/utils/ext/kernel/exit.c -o kernel/exit.lo 
+utils/convert.lo: /data/www/jsx/utils/ext/utils/convert.zep.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/data/www/jsx/utils/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /data/www/jsx/utils/ext/utils/convert.zep.c -o utils/convert.lo 
+$(phplibdir)/utils.la: ./utils.la
+	$(LIBTOOL) --mode=install cp ./utils.la $(phplibdir)
+
+./utils.la: $(shared_objects_utils) $(UTILS_SHARED_DEPENDENCIES)
+	$(LIBTOOL) --mode=link $(CC) $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS) $(LDFLAGS) -o $@ -export-dynamic -avoid-version -prefer-pic -module -rpath $(phplibdir) $(EXTRA_LDFLAGS) $(shared_objects_utils) $(UTILS_SHARED_LIBADD)
+
